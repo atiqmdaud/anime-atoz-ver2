@@ -1,12 +1,11 @@
-# Anime A to Z
+# Anime AtoZ
 
-A modern React application for browsing and discovering anime series. Built with TypeScript, Vite, and Redux Toolkit.
+A modern React application for discovering anime series. Built with TypeScript, Vite, and Redux Toolkit.
 
 ## Features
 
-- Browse anime series from A to Z
+- Search anime
 - View detailed information about each anime
-- Search and filter anime
 - Responsive design with Tailwind CSS
 - Fast development with Vite and Hot Module Replacement
 
@@ -25,7 +24,7 @@ A modern React application for browsing and discovering anime series. Built with
 ### Prerequisites
 
 - Node.js (version 18 or higher)
-- npm or yarn
+- npm
 
 ### Installation
 
