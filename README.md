@@ -60,12 +60,21 @@ A modern React application for browsing and discovering anime series. Built with
 
 ```
 src/
+├── App.css
+├── App.tsx
+├── hooks.ts
+├── index.css
+├── main.tsx
+├── store.ts            # Redux store configuration
+├── assets/
 ├── components/          # Reusable UI components
 │   ├── feedback/       # Error and not found components
 │   ├── layout/         # Layout components (Navbar, Footer)
 │   └── ui/             # Basic UI components (Card, Input)
 ├── features/
 │   └── anime/          # Anime-related features
+│       ├── animeApi.ts
+│       ├── animeSlice.ts
 │       ├── components/ # Anime-specific components
 │       ├── dtos/       # Data transfer objects
 │       ├── mappers/    # Data mapping utilities
@@ -78,8 +87,6 @@ src/
 ├── test/               # Test utilities and mocks
 └── types/              # Global type definitions
 ```
-
-
 
 ## License
 
