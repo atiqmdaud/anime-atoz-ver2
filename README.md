@@ -32,8 +32,8 @@ A modern React application for browsing and discovering anime series. Built with
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd anime-atoz-onrender
+   git clone https://github.com/atiqmdaud/anime-atoz-ver2
+   cd anime-atoz-ver2
    ```
 
 2. Install dependencies:
@@ -48,15 +48,13 @@ A modern React application for browsing and discovering anime series. Built with
    npm run dev
    ```
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+4. Open [http://localhost:4000](http://localhost:4000) in your browser.
 
 ### Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
-- `npm run preview` - Preview production build
 - `npm run test` - Run tests
-- `npm run lint` - Run ESLint
 
 ## Project Structure
 
@@ -81,43 +79,8 @@ src/
 └── types/              # Global type definitions
 ```
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests: `npm run test`
-5. Run linting: `npm run lint`
-6. Commit your changes
-7. Push to the branch
-8. Open a Pull Request
 
 ## License
 
 This project is private and not licensed for public use.
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-globalIgnores(['dist']),
-{
-files: ['**/*.{ts,tsx}'],
-extends: [
-// Other configs...
-// Enable lint rules for React
-reactX.configs['recommended-typescript'],
-// Enable lint rules for React DOM
-reactDom.configs.recommended,
-],
-languageOptions: {
-parserOptions: {
-project: ['./tsconfig.node.json', './tsconfig.app.json'],
-tsconfigRootDir: import.meta.dirname,
-},
-// other options...
-},
-},
-])
-
-```
-
-```
