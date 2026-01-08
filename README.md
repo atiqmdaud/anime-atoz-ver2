@@ -1,6 +1,6 @@
 # Anime AtoZ
 
-A modern React application for discovering anime series. Built with TypeScript, Vite, and Redux Toolkit.
+A modern React application for discovering anime series. Built with TypeScript, Vite, Redux Toolkit, RTK Query and Jikan API.
 
 ## Features
 
